@@ -7,37 +7,37 @@ const HomeParent = styled.div`
     margin:auto;
 `
 const StyledBanner = styled.div`
-    overflow: hidden;
     border-radius: 25px;
     margin: auto;
     height: 250px;
     width: 100%;
-    background-color : #000000;
+    background-image : ${Banner};
+    background-position: 50%, 50%;
     
 `
 
-const StyledImage = styled.img`
-    width : 100%;
-    height: auto;
-    margin-top: -70%;
-    
-    opacity : 0.7;
+// const StyledImage = styled.img`
+//     width : 100%;
+//     height: auto;
+//     margin-top: -70%;
+//     opacity : 0.65;
    
-`
+// `
 
 const TitleHome = styled.h1`
-    color : white;
+    font-family: 'Montserrat', sans-serif;
+    color :#FFFFFF;
     font-size : 48px;
-    text-align : center;
-    align-item: center;
+    font-weight: 900;
     
 `
 function Home() {
     return(
         <HomeParent>
             <StyledBanner>
+                {/* <StyledImage src={Banner} alt="image d'une falaise"/> */}
                 <TitleHome>Chez vous, partout et ailleurs</TitleHome>
-                <StyledImage src={Banner} alt="image d'une falaise"/>
+                
             </StyledBanner>
             <div>
                 <div>
