@@ -1,0 +1,30 @@
+.parent-banner{
+    position: relative;
+    margin: auto;
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+
+.background-banner{
+    border-radius: 25px;
+    margin: auto;
+    height: 250px;
+    width: 100%;
+    background:  url('../../assets/banner.jpg') ;
+    background-position: top -1160px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: absolute;
+    filter: brightness(0.7);
+    
+}
+.title-banner{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFF !important;
+    font-size: 48px;
+    position: relative;
+    margin: auto;
+}

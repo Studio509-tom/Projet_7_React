@@ -1,15 +1,8 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import Logo from "../../assets/logo.svg"
-import colors from '../../utils/styles/color'
-
-const NavParent = styled.div`
-    display : flex;
-    align-items : center;
-    justify-content: space-between;
-    padding : 40px 100px;
-`
-
+import colors from '../../styles/color'
+import './header.css'
 
 const StyledLink = styled(Link)`
     font-size: 24px ;
@@ -18,13 +11,13 @@ const StyledLink = styled(Link)`
 `
 function Header(){
     return(
-        <NavParent>
+        <div className='nav-bar'>
             <img src={Logo} alt="logo"></img>
             <nav>
                 <StyledLink  to="/">Accueil</StyledLink>
                 <StyledLink  to="/">A Propos</StyledLink>
             </nav>
-        </NavParent>
+        </div>
     )
 
 }
