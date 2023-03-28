@@ -6,7 +6,9 @@ import './index.css';
 
 import Header from './components/Header';
 import Error from './components/Error';
+import Footer from './components/Footer/footer'
 import Home from './pages/Home/index'
+import Information from './pages/Propos/index'
 ReactDOM.render(
   <React.StrictMode>
     <Router>
@@ -16,9 +18,13 @@ ReactDOM.render(
           <Home/>
         </Route>
         <Route>
+          <Information path="/information" />
+        </Route>
+        <Route>
           <Error />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
