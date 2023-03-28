@@ -9,13 +9,13 @@ const StyledLink = styled(Link)`
     color : ${colors.primary};
     padding: 15px;
 `
-function Header(){
-    return(
+function Header() {
+    return (
         <div className='nav-bar'>
             <img src={Logo} alt="logo"></img>
             <nav>
-                <StyledLink  to="/">Accueil</StyledLink>
-                <StyledLink  to="/">A Propos</StyledLink>
+                <StyledLink to="/">Accueil</StyledLink>
+                <StyledLink to="/">A Propos</StyledLink>
             </nav>
         </div>
     )

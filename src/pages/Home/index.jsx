@@ -7,10 +7,10 @@ const HomeParent = styled.div`
 `
 
 function Home() {
-    return(
+    return (
         <HomeParent>
             <Banner />
-            <Card/>
+            <Card />
         </HomeParent>
     )
 }
