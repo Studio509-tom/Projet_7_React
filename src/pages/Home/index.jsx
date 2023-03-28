@@ -7,11 +7,11 @@ const HomeParent = styled.div`
     max-width : 90%;
     margin:auto;
 `
-
+// !Page d'accueil
 function Home() {
     return (
         <HomeParent>
-            <Banner />
+            <Banner title="Chez vous, partout et ailleurs" cover="url('../../assets/banner.jpg')"/>
             <Card />
         </HomeParent>
     )

@@ -1,6 +1,7 @@
 import Logo from '../../assets/logo_footer.png'
 import './footer.css'
 
+//! Footer de la page 
 function Footer() {
     return(
         <div className='footer'>

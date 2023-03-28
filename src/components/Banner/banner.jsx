@@ -1,13 +1,31 @@
 import React from 'react'
+import styled from 'styled-components'
 import './banner.css'
+import Background from '../../assets/montain.jpg' 
 
+const BackgroundStyled = styled.div`
+    .background-banner{
+        background : ${props => props.title ? "url('../../assets/banner.jpg')" : process.env.PUBLIC_URL + Background};
+    }
+`
+// function test()  {
+//     if(props.title){
+//         const BackgroundStyled = styled.div`
+//         .background-banner{
+//             background:${props =>props.cover};
+//         }
+//         `
+//     }
+// }
 
-function Banner() {
+//!Banniere 
+function Banner(props) {
+    console.log(props.title)
     return (
-        <div className='parent-banner'>
+        <BackgroundStyled title={props.title} className='parent-banner'>
             <div className='background-banner'></div>
-            <h1 className='title-banner'>Chez vous, partout et ailleurs</h1>
-        </div>
+            <h1 className='title-banner'>{props.title}</h1>
+        </BackgroundStyled>
     )
 }
 

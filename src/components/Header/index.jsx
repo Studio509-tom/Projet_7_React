@@ -4,6 +4,7 @@ import Logo from "../../assets/logo.svg"
 import colors from '../../styles/color'
 import './header.css'
 
+//Stylisation des liens
 const StyledLink = styled(Link)`
     font-family: 'Montserrat',sans-serif;
     font-weight: 900;
@@ -14,7 +15,7 @@ const StyledLink = styled(Link)`
         text-decoration: underline;
     }
 `
-
+//! Barre de navigation 
 function Header() {
     return (
         <div className='nav-bar'>

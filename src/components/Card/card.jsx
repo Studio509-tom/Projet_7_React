@@ -1,5 +1,6 @@
 import './card.css'
-const logementAll = require('../../Data/data.json');
+const logementAll = require('../../Data/data.json');//Récupération de tout les appartement 
+//!Affichage pour chaque appartement 
 const logements = logementAll.map((logement) =>
     <a href='/' key={logement.id}>
         <article className='product' >
@@ -9,6 +10,7 @@ const logements = logementAll.map((logement) =>
     </a>
 )
 
+//!Affichage de tout les appartement 
 function Card() {
     return (
         <section className='product-container'>
