@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 50px;
+    padding-bottom: 3%;
 }
 
 .product {
@@ -21,6 +22,7 @@
     height: 340px;
     width: 90%;
     margin-top: 10%;
+    
 
 }
 

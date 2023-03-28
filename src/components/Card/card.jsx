@@ -2,8 +2,8 @@ import './card.css'
 const logementAll = require('../../Data/data.json');
 const logements = logementAll.map((logement) =>
     <a href='/' >
-        <article className='product' key={logement.title}>
-            <img class="image-product" src={logement.cover} alt="logement" />
+        <article className='product' key={logement.id}>
+            <img className="image-product" src={logement.cover} alt="logement" />
             <h2>{logement.title}</h2>
         </article>
     </a>

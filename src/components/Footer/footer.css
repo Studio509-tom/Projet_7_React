@@ -1,0 +1,19 @@
+.footer{
+    background-color: black;
+}
+
+.footer-conatainer{
+    text-align: center;
+    padding: 50px;
+    margin-top: 5%;
+    
+}
+.footer-logo{
+    margin-top: 2%;
+}
+.footer-text{
+    color: #FFFF;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 2%;
+    font-size: 24px;
+}
