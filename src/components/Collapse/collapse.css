@@ -1,0 +1,28 @@
+.collapse-container{
+    padding: 0px 15%;
+    display: block;
+}
+.collapse{
+    margin-top: 5%;
+}
+.collapse-title{
+    display: flex;
+    background-color: #FF6060;
+    color: white;
+    border-radius: 5px ;
+    padding-left: 1%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    
+}
+svg{
+    height: 50px;
+    width: 50px;
+    color: #fcfcfc;
+    padding-right: 1%;
+}
+.collapse-description{
+    color : #FF6060;
+    font-size: 24px;
+}

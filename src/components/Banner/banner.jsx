@@ -14,7 +14,7 @@ const BackgroundStyled = styled.div`
 
 //!Banniere 
 function Banner(props) {
-    console.log(props.title)
+    // console.log(props.title)
     return (
         <BackgroundStyled cover={props.cover} className='parent-banner'>
             <div className='background-banner'></div>
