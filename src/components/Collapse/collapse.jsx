@@ -13,16 +13,15 @@ const DescStyled = styled.div`
             background-color: ${color.secondary};
             padding : 15px ;
         `
-    // console.log(DescStyled)
-// console.log(DescStyled + "toto")
 
+//! Collapse qui utilise un état pour s'ouvrir et se fermé
 function Collapse({params, title}) {
-    const [isOpen , setIsOpen] = useState(true)
-    
+    const [isOpen , setIsOpen] = useState(false)
+    console.log(isOpen)
     return isOpen ? (
         <section className='collapse-container'>
             <article className='collapse' >
-                <div className='collapse-title'onClick={() => setIsOpen = false}>
+                <div className='collapse-title' onClick={() => setIsOpen (false)}>
                     <h3>{title}</h3>
                     <FontAwesomeIcon icon="fa-solid fa-chevron-up" />
                 </div>
@@ -35,9 +34,9 @@ function Collapse({params, title}) {
     ) : (
         <section className='collapse-container'>
             <article className='collapse' >
-                <div className='collapse-title'onClick={() => setIsOpen = false}>
+                <div className='collapse-title' onClick={() => setIsOpen (true)}>
                     <h3>{title}</h3>
-                    <FontAwesomeIcon icon="fa-solid fa-chevron-up" />
+                    <FontAwesomeIcon icon="fa-solid fa-chevron-down" />
                 </div>
             </article>
 
