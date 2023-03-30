@@ -11,7 +11,7 @@ import Footer from './components/Footer/footer'
 import Home from './pages/Home/index'
 import Information from './pages/Propos/index'
 import Error from './pages/Error/index';
-
+import Product from './pages/Product/index'
 //!Route
 ReactDOM.render(
   <React.StrictMode>
@@ -22,9 +22,15 @@ ReactDOM.render(
         <Route exact path="/">
           <Home/>
         </Route>
+        
         <Route path="/information">
           <Information  />
         </Route>
+        
+        <Route path="/:id">
+          <Product/>
+        </Route>
+        
         <Route>
           <Error/>
         </Route>
