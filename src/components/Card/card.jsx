@@ -1,5 +1,6 @@
 import './card.css'
 const logementAll = require('../../Data/data.json');//Récupération de tout les appartement 
+
 //!Affichage pour chaque appartement 
 const logements = logementAll.map((logement) =>
     <a href='/' key={logement.id}>

@@ -1,0 +1,21 @@
+
+.error{
+    text-align: center;
+    margin-top: -5%;
+    color: var(--text-color);
+}
+.title-error{
+    font-size: 288px;
+}
+
+.text-error{
+    font-size: 36px;
+    margin-top: -5%;
+}
+.redirect-error{
+    font-size: 18px;
+    
+    cursor: pointer;
+   
+}
+
