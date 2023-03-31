@@ -2,7 +2,7 @@
     position: relative;
     margin: auto;
     height: 415px;
-    width: 1240px;
+    width: 90%;
     display: flex;
     
     
@@ -21,6 +21,7 @@
     z-index: 1;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 
 }
 .Arrow{
