@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import AllText from '../../Data/About.json'
 import './collapse.css'
 import color from '../../styles/color'
 import styled from 'styled-components';

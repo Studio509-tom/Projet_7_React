@@ -1,0 +1,17 @@
+.parent-slide {
+    position: relative;
+    margin: auto;
+    height: 415px;
+    width: 1240px;
+    display: flex;
+}
+.background-slide {
+    border-radius: 25px;
+    margin: auto;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    filter: brightness(0.7);
+
+}
