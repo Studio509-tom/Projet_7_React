@@ -5,6 +5,8 @@ body {
   font-weight: 900;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 code {
