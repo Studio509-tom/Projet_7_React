@@ -48,3 +48,13 @@ h2 {
 a {
     text-decoration: none;
 }
+@media screen and (max-width: 800px) {
+    .product-home{
+        background-color : transparent;
+        display: block;
+        padding-left: 0px;
+    }
+    .product{
+        width: 100%;
+    }
+}

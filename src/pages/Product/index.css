@@ -66,3 +66,22 @@
     
     max-width: 45%;
 }
+@media screen and (max-width: 800px) {
+    .product-id-container{
+        display: block;
+    }
+    .product-profile{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .rating{
+        width: 100%;
+        text-align: start;
+    }
+    .product-collapse{
+        display: block;
+    }
+}

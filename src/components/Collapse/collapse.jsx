@@ -16,7 +16,7 @@ const DescStyled = styled.div`
 //! Collapse qui utilise un état pour s'ouvrir et se fermé
 function Collapse({params, title}) {
     const [isOpen , setIsOpen] = useState(false)
-    console.log(isOpen)
+    // console.log(isOpen)
     return isOpen ? (
         <section className='collapse-container'>
             <article className='collapse' >

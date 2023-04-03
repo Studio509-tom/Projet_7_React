@@ -24,3 +24,19 @@
     position: relative;
     margin: auto;
 }
+@media screen and (max-width: 800px) {
+    .parent-banner{
+        height: 100%;
+        overflow: hidden;
+    }
+    .background-banner {
+        height: 100%;
+        width: 100%;
+    }
+    .title-banner{
+        font-size: 28px;
+        padding-right: 100px;
+        margin: 30px;
+        padding-bottom: 130px;
+    }
+}

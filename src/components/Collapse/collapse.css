@@ -2,7 +2,7 @@
     padding: 0px 2%;
     display: block;
     width: 90%;
-    margin: auto;
+    
 }
 .collapse{
     margin-top: 5%;
@@ -30,4 +30,17 @@ svg{
 .collapse-description{
     color : var(--text-color);
     font-size: 24px;
+}
+@media screen and (max-width: 800px) {
+    .collapse-container{
+        padding: 0px;
+        width: 100%;
+        
+    }
+    .collapse-title {
+        font-size: 16px;
+    }
+    .collapse-description{
+        font-size: 16px;
+    }
 }

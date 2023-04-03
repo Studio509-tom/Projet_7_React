@@ -1,0 +1,8 @@
+.banner-propos{
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .banner-propos{
+        height: 350px; 
+    }
+}
