@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+import { useParams } from "react-router-dom";
 import './variables.css';
 import './index.css';
 
@@ -13,31 +13,31 @@ import Information from './pages/Propos/index'
 import Error from './pages/Error/index';
 import Product from './pages/Product/index'
 
+
 //!Route
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Header />
       <Switch>
-        
+        <Route exact path="/error">
+          <Error />
+        </Route>
+
         <Route exact path="/">
-          <Home/>
-        </Route>
-        
-        <Route path="/information">
-          <Information  />
+          <Home />
         </Route>
 
-        <Route path="/:id">
-            <Product/>
+        <Route exact path="/information">
+          <Information />
         </Route>
 
-        <Route path="*">
-          <Error/>
+        <Route exact path="/:id">
+          <Product />
         </Route>
-        
+
+        <Redirect from='*' to='/error' />
       </Switch>
-      
       <Footer />
     </Router>
   </React.StrictMode>,

@@ -17,7 +17,7 @@ const StyledLink = styled(Link)`
     }
     @media screen and (max-width: 800px) {
         padding: 5px;
-        
+        font-size:16px
     }
 `
 //! Barre de navigation 

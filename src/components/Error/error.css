@@ -6,6 +6,7 @@
 }
 .title-error{
     font-size: 288px;
+    font-weight: 900;
 }
 
 .text-error{
@@ -17,5 +18,20 @@
     
     cursor: pointer;
    
+}
+@media screen and (max-width: 800px) {
+    .title-error{
+        font-size: 130px;
+        margin-bottom: auto;
+    }
+    .text-error{
+        font-size: 18px;
+        margin-top: -5%;
+    }
+    .redirect-error{
+        margin-top: 30%;
+        margin-bottom: 60%;
+       
+    }
 }
 

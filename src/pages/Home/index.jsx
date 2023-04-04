@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
 import Banner from '../../components/Banner/banner'
 import Card from '../../components/Card/card'
@@ -11,12 +12,13 @@ const HomeParent = styled.div`
 // !Page d'accueil
 function Home() {
     return (
-        <HomeParent>
-            <div className='banner-home'>
-                <Banner title="Chez vous, partout et ailleurs" cover={Background}/>
-            </div>
-            <Card />
-        </HomeParent>
+        
+            <HomeParent>
+                <div className='banner-home'>
+                    <Banner title="Chez vous, partout et ailleurs" cover={Background}/>
+                </div>
+                <Card />
+            </HomeParent>
     )
 }
 
