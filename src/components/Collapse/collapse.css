@@ -1,46 +1,53 @@
-.collapse-container{
+.collapse-container {
     padding: 0px 2%;
     display: block;
     width: 90%;
-    
+
 }
-.collapse{
+
+.collapse {
     margin-top: 5%;
     width: auto;
 }
-.collapse-title{
+
+.collapse-title {
     display: flex;
     background-color: var(--text-color);
     color: white;
-    border-radius: 5px ;
+    border-radius: 5px;
     padding-left: 1%;
     align-items: center;
     justify-content: space-between;
     font-size: 24px;
     cursor: pointer;
     user-select: none;
-    
+
 }
-svg{
+
+svg {
     height: 50px;
     width: 50px;
     color: #fcfcfc;
     padding-right: 1%;
 }
-.collapse-description{
-    color : var(--text-color);
+
+.collapse-description {
+    color: var(--text-color);
     font-size: 24px;
 }
+
 @media screen and (max-width: 800px) {
-    .collapse-container{
+    .collapse-container {
         padding: 0px;
         width: 100%;
-        
+
     }
+
     .collapse-title {
         font-size: 16px;
     }
-    .collapse-description{
+
+    .collapse-description {
         font-size: 16px;
     }
 }

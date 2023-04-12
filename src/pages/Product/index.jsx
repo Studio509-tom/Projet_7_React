@@ -14,9 +14,7 @@ fontawesome.library.add(faStar);
 
 
 function Product() {
-    //Récupération de l'id dans l'url
-    // const link = (window.location).href;
-    // var id = link.substring(link.lastIndexOf('/') + 1);
+    //Récupération de l'id 
     const { id } = useParams()
     let errorId = true;
     for (let i = 0; i < Data.length; i++) {
