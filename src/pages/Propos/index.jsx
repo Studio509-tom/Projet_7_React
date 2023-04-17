@@ -21,7 +21,7 @@ function Info() {
     var collapses = []
     for (let i = 0; i < AllText.length ;i++){
         var description = <p className='collapse-description'>{AllText[i].description}</p>
-        collapses.push(<Collapse key={AllText[i].id} params={description} title={AllText[i].title}/>)
+        collapses.push(<Collapse params={description} title={AllText[i].title}/>)
     } 
     
     return (

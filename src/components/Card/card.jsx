@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './card.css'
 const logementAll = require('../../Data/data.json');//Récupération de tout les appartement 
 
@@ -5,10 +6,10 @@ const logementAll = require('../../Data/data.json');//Récupération de tout les
 const logements = logementAll.map((logement) =>
     
         <article className='product' key={logement.id}>
-            <a href={logement.id} >
+            <Link to={logement.id}>
                 <img className="image-product" src={logement.cover} alt="logement" />
                 <h2>{logement.title}</h2>
-            </a>
+            </Link>
         </article>
     
 )
