@@ -4,7 +4,7 @@ import fontawesome from '@fortawesome/fontawesome'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/fontawesome-free-solid'
 import { useState } from "react"
-import {useParams} from "react-router-dom";
+// import {useParams} from "react-router-dom";
 
 fontawesome.library.add(faChevronLeft);
 fontawesome.library.add(faChevronRight);
