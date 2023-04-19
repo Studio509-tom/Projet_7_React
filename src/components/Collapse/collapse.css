@@ -27,9 +27,10 @@
 svg {
     height: 50px;
     width: 50px;
-    color: #fcfcfc;
+    fill: white;
     padding-right: 1%;
 }
+
 
 .collapse-description {
     color: var(--text-color);

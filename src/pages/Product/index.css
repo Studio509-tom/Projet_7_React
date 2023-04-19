@@ -29,7 +29,9 @@
     margin-right: 10px;
     background-color: var(--text-color);
 }
-
+.fa-star{
+    color: aliceblue;
+}
 .product-profile{
     width: 25%;
 }
@@ -66,8 +68,11 @@
     
     max-width: 45%;
 }
-.svg-star-pink{
-    color: white;
+.svg-color-pink{
+    fill: #FF6060;
+}
+.svg-grise{
+    fill: #E3E3E3;
 }
 @media screen and (max-width: 1012px) {
     .product-id-container{
