@@ -66,6 +66,9 @@
     
     max-width: 45%;
 }
+.svg-star-pink{
+    color: white;
+}
 @media screen and (max-width: 1012px) {
     .product-id-container{
         display: block;
